@@ -1,1 +1,1 @@
-print(f'You are going to die in 7 days.')
+print(f'You are going to die in 7 days.') #well thats a bit dark
