@@ -1,0 +1,1 @@
+print(f'You are going to die in 7 days.')
