@@ -17,6 +17,13 @@ def create_zip_filename(directory):
     """Create a zip filename based on the directory name."""
     return os.path.basename(os.path.normpath(directory)) + '.zip'
 
+def name_zip_file():
+    """Ask the user for the name of the output zip file."""
+    zip_filename = input("Enter the name of the output .zip file: ")
+    if not zip_filename.endswith('.zip'):
+        zip_filename += '.zip'
+    return zip_filename
+
 def zip_files(files, zip_filename):
     """Zip all files into the given zip filename."""
     with zipfile.ZipFile(zip_filename, 'w') as zipf:
@@ -34,7 +41,7 @@ def print_confirmation(zip_filename):
 def main():
     directory = get_directory()
     files = list_files(directory)
-    zip_filename = create_zip_filename(directory)
+    zip_filename = name_zip_file()
     zip_files(files, zip_filename)
     if confirm_zip_creation(zip_filename):
         print_confirmation(zip_filename)
