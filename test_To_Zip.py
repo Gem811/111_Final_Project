@@ -1,8 +1,8 @@
 import unittest
 import os
 import zipfile
-from lala import check_directory_exists, create_zip_file, collect_files, add_files_to_zip, close_zip_file, log_success, zip_directory
-from zip_example import get_directory, list_files, create_zip_filename, zip_files, confirm_zip_creation, print_confirmation
+from Unused_Material.lala import check_directory_exists, create_zip_file, collect_files, add_files_to_zip, close_zip_file, log_success, zip_directory
+from Unused_Material.zip_example import get_directory, list_files, create_zip_filename, zip_files, confirm_zip_creation, print_confirmation
 
 # Test cases for lala.py
 class TestLala(unittest.TestCase):
