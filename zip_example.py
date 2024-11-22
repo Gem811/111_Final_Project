@@ -41,5 +41,4 @@ def main():
     else:
         print("Failed to create the zip file.")
 
-if __name__ == "__main__":
-    main()
+main()
