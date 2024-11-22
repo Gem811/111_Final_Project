@@ -2,7 +2,7 @@
 # Date
 # CptS 111, Fall 2024
 # Name of project
-# Brief description and/or purpose of project; include sources
+# Brief description and/or purpose of project; Copilot for code and comments
 # Modules used
 
 import os
