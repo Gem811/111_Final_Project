@@ -2,7 +2,7 @@ import unittest
 import os
 import zipfile
 import subprocess
-from Done.To_Zip import get_directory, list_files, create_zip_filename, name_zip_file, zip_files, confirm_zip_creation, print_confirmation
+from To_Zip import get_directory, list_files, create_zip_filename, name_zip_file, zip_files, confirm_zip_creation, print_confirmation
 class TestToZip(unittest.TestCase):
 
     def setUp(self):
