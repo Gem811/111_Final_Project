@@ -1,0 +1,7 @@
+The first test case “setUp” creates a test directory and test file inside it with text and attempts to create it.
+The second test case “tearDown” cleans the test directory made above and removes it, checking to make sure it worked, and the path existed.
+The third test case “test_directory_creation” checks if the directory contains a specific test file, maintaining that everything was zipped correctly.
+The fourth test case “test_zip_file_creation” checks to see if a zip file was created even if nothing was input for name.
+The fifth test case “test_zip_file_contents” checks that the zip file created contains the correct files before and after the zip file creation.
+The sixth test case “test_custom_zip_filename” checks to see if the correct file name was made on the zip file.
+The last test case “test_confirmation_message” checks to see if the confirmation message was printed correctly to the user.
