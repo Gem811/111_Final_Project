@@ -1,4 +1,4 @@
-# Hans Anstey and ___________
+# Hans Anstey and Madelynn Fulmer
 # 11/21/2024
 # CptS 111, Fall 2024
 # Backup directory to .zip
