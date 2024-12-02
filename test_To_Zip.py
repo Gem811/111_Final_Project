@@ -1,3 +1,10 @@
+# Hans Anstey and Madelynn Fulmer
+# 11/21/2024
+# CptS 111, Fall 2024
+# Backup directory to .zip
+# Creates a zip file of a directory given by the user and allows the user to name it; Copilot for code and comments,this version tests the main file
+# Modules used: os, zipfile, unittest, subprocess, To_Zip
+
 import unittest
 import os
 import zipfile
