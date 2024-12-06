@@ -49,9 +49,11 @@ def main():
     directory = get_directory()
     files = list_files(directory)
     zip_filename = name_zip_file()
+    # If the user didn't provide a name, use the directory name
     if zip_filename == '':
         zip_filename = create_zip_filename(directory)
     zip_files(files, zip_filename)
+    # Confirm that the zip file was created
     if confirm_zip_creation(zip_filename):
         print_confirmation(zip_filename)
     else:
